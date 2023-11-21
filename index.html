@@ -3,6 +3,7 @@
 
 <head>
     <title>Krozta</title>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
 <style>
@@ -49,42 +50,32 @@
         cursor: auto;
     }
 
-    /* Add these media queries */
-    @media only screen and (min-width: 600px) {
-        .pizza {
-            width: 80% !important;
-        }
 
-        .logo {
-            width: 70% !important;
-        }
-    }
 </style>
 
 <body>
-    <div class="background">
-        ALL AROUND ALL AROUND ALL AROUND ALL AROUND ALL AROUND ALL AROUND ALL AROUND ALL AROUND ALL AROUND ALL AROUND
-        ALL AROUND ALL AROUND ALL AROUND ALL AROUND ALL AROUND ALL AROUND ALL AROUND ALL AROUND ALL AROUND ALL AROUND
-        ALL AROUND ALL AROUND ALL AROUND ALL AROUND ALL AROUND ALL AROUND ALL AROUND ALL AROUND ALL AROUND ALL AROUND
-        ALL AROUND ALL AROUND ALL AROUND ALL AROUND ALL AROUND ALL AROUND ALL AROUND ALL AROUND ALL AROUND ALL AROUND
-        ALL AROUND ALL AROUND ALL AROUND ALL AROUND ALL AROUND ALL AROUND ALL AROUND ALL AROUND ALL AROUND ALL AROUND
-        ALL AROUND ALL AROUND ALL AROUND ALL AROUND ALL AROUND ALL AROUND ALL AROUND ALL AROUND ALL AROUND ALL AROUND
 
-    </div>
-    <div style="text-align: center;">
-        <div style="width: 50%; max-width: 900px; margin: 0 auto;">
-            <!-- Add class names to your images -->
-            <img class="pizza" src="pizza.gif" style="width: 60%;" alt="">
-            <img class="logo" src="logo.png" style="width: 50%;" alt="">
-            <p style="font-size: 100%;">
-                <a target="_blank" class="nostyle"
-                    href="https://www.google.com.br/maps/place/R.+Jesu%C3%ADno+Pascoal,+39+-+Consola%C3%A7%C3%A3o,+S%C3%A3o+Paulo+-+SP,+01224-050/@-23.5404959,-46.6521617,17z/data=!3m1!4b1!4m6!3m5!1s0x94ce584716fb45ed:0x687ed9fc7f6381cb!8m2!3d-23.5404959!4d-46.6495868!16s%2Fg%2F11c1yjj44k?entry=ttu">
+    <div class="w-full h-full">
+        <div class="background absolute">
+            ALL AROUND ALL AROUND ALL AROUND ALL AROUND ALL AROUND ALL AROUND ALL AROUND ALL AROUND ALL AROUND ALL AROUND
+            ALL AROUND ALL AROUND ALL AROUND ALL AROUND ALL AROUND ALL AROUND ALL AROUND ALL AROUND ALL AROUND ALL AROUND
+            ALL AROUND ALL AROUND ALL AROUND ALL AROUND ALL AROUND ALL AROUND ALL AROUND ALL AROUND ALL AROUND ALL AROUND
+            ALL AROUND ALL AROUND ALL AROUND ALL AROUND ALL AROUND ALL AROUND ALL AROUND ALL AROUND ALL AROUND ALL AROUND
+            ALL AROUND ALL AROUND ALL AROUND ALL AROUND ALL AROUND ALL AROUND ALL AROUND ALL AROUND ALL AROUND ALL AROUND
+            ALL AROUND ALL AROUND ALL AROUND ALL AROUND ALL AROUND ALL AROUND ALL AROUND ALL AROUND ALL AROUND ALL AROUND
+        </div>
 
-                    rua jesuino pascoal, 39
-                </a>
-            </p>
+        <div class="w-[50%] h-full m-auto flex flex-col justify-center items-center">
+            <img class="pizza max-w-[500px] w-full" src="pizza.gif" alt="">
+            <img class="logo max-w-[500px] w-full" src="logo.png" alt="">
+            <a target="_blank" class="nostyle text-xs sm:text-base" href="https://www.google.com.br/maps/place/R.+Jesu%C3%ADno+Pascoal,+39+-+Consola%C3%A7%C3%A3o,+S%C3%A3o+Paulo+-+SP,+01224-050/@-23.5404959,-46.6521617,17z/data=!3m1!4b1!4m6!3m5!1s0x94ce584716fb45ed:0x687ed9fc7f6381cb!8m2!3d-23.5404959!4d-46.6495868!16s%2Fg%2F11c1yjj44k?entry=ttu">
+                rua jesuino pascoal, 39
+            </a>
 
         </div>
+
+
+
     </div>
 
 </body>
